@@ -45,3 +45,8 @@ cd bin/ # From MyProjet repertoire
 ./startup.sh #start tomcat server
 ```
 #### 6- use WebPages to manage a list of people : 
+    WebPages
+      |-------index.html 
+      |-------all.html
+      |-------add.html
+      |-------del.html
