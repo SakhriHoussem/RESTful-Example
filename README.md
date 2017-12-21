@@ -1,2 +1,3 @@
 # RESTfulApp
-interaction winth bdd using restful API
+## a REST web service to manage a list of people
+
