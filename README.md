@@ -1,9 +1,9 @@
 # RESTfulApp
 ## a REST web service to manage a list of people
 
-## step to follow
+### step to follow
 
-### database
+#### database
 ```mysql
 CREATE DATABASE person; -- create new database
 ```
@@ -19,22 +19,22 @@ age INT(6),
 reg_date TIMESTAMP
 )
 ```
-### copy MyProjet to tomcat
+#### copy MyProjet to tomcat
 ```bash
 cp -r MyProjet <tomcat Path>/webapps/
 ```
-### copy MyProjet to tomcat
+#### copy MyProjet to tomcat
 ```bash
 cp -r MyProjet <tomcat Path>/webapps/
 ```
-### compile MyProjet
+#### compile MyProjet
 ```bash
 cd WEB-INF/ # From MyProjet repertoire
 ```
 ```bash # to compile
 javac -classpath "lib/*" src/com/person/Gestion.java src/com/person/Person.java -d classes/
 ```
-### Restart tomcat
+#### Restart tomcat
 ```bash
 cd bin/ # From MyProjet repertoire
 ```
@@ -44,4 +44,4 @@ cd bin/ # From MyProjet repertoire
 ```bash
 ./startup.sh #start tomcat server
 ```
-### use WebPages to manage a list of people
+#### use WebPages to manage a list of people
