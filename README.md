@@ -11,7 +11,7 @@ CREATE DATABASE person; -- create new database
 use person; -- use database
 ```
 ```mysql
-CREATE TABLE p (
+CREATE TABLE p ( -- create table p
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 nom VARCHAR(30) NOT NULL,
 prenom VARCHAR(30) NOT NULL,
