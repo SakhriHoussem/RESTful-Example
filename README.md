@@ -36,7 +36,7 @@ javac -classpath "lib/*" src/com/person/Gestion.java src/com/person/Person.java 
 ```
 #### 5- Restart tomcat : 
 ```bash
-cd bin/ # From MyProjet repertoire
+cd bin/ # From tomcat repertoire
 ```
 ```bash
 ./shutdown.sh #stop tomcat server
