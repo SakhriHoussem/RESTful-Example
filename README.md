@@ -5,19 +5,19 @@
 
 ### database
 ```mysql
-	CREATE DATABASE person; -- create new database
+CREATE DATABASE person; -- create new database
 ```
 ```mysql
-	use person; -- use database
+use person; -- use database
 ```
 ```mysql
-	CREATE TABLE p (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(30) NOT NULL,
-    prenom VARCHAR(30) NOT NULL,
-    age INT(6),
-    reg_date TIMESTAMP
-  )
+CREATE TABLE p (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+nom VARCHAR(30) NOT NULL,
+prenom VARCHAR(30) NOT NULL,
+age INT(6),
+reg_date TIMESTAMP
+)
 ```
 ### copy MyProjet to tomcat
 ```bash
