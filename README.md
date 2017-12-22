@@ -47,6 +47,6 @@ cd bin/ # From tomcat repertoire
 #### 6- use WebPages to manage a list of people : 
     WebPages
       |-------index.html 
-      |-------all.html
+      |-------edit.html
       |-------add.html
       |-------del.html
